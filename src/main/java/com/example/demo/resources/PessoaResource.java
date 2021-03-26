@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.demo.domain.Pessoa;
 import com.example.demo.repository.PessoaRepository;
 
-
 @RestController
 @RequestMapping("/pessoas")
 public class PessoaResource {
